@@ -42,7 +42,7 @@ def turnIntoTransactions(latestBlockHeight, blocks, elementFromImage):
 
 def compressionLab(encodedFile):
     fileReceived = encodedFile;
-    byteSize = 8
+    byteSize = 4
     initLoop = 0
     endLoop = byteSize
 
