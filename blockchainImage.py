@@ -11,6 +11,12 @@ import time
 import os
 import sys
 
+# Function name:
+# deleteTmpFiles
+#
+# Used to delete the base58 encoded temporary file.
+# Parameters:
+#
 def deleteTmpFiles():
     os.remove('tmp58_1.txt')
 
